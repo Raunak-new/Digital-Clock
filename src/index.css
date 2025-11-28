@@ -1,0 +1,33 @@
+body{
+	background-image: url(assets/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0%;       
+	
+	
+
+	/* to align in the middle*/
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	align-items: center;
+
+}
+.clock-container{
+	width: 100vw;
+	padding: 10px 0;
+
+	
+
+}
+.clock{
+	color: azure;
+	font-size:6rem;
+	font-weight: bold;
+	font-family:monospace;
+	text-shadow: 4px 5px 5px rgb(80, 73, 73);
+	text-align: center;
+
+}
